@@ -12,7 +12,7 @@ ABSTRACT
 - The goal of this project was to perform an analysis of topics used by various Golden Age tango poets, in order to help modern orchestras imitate them. The exploration is also useful for other tango proffesionals (music collectors, dj's, dance teachers) and private enthusiasts. The project used a dataset of lyrics from www.el-recodo.com, which was a powerful source of information about Argentinian Tango music for both professionals and hobbyists. After initial cleaning, the Spanish texts were pre-processed to distinguish the topics. The project tested and tuned multiple models, and ultimately decided to use Latent Dirichlet Allocation (LDA). Exploratory Data Analysis was performed and an interactive dashboard was built using Tableau to visualize and communicate the results.
 
 DESIGN
-
+javascript:top.location="http://htmlpreview.github.com/?"+https://github.com/Krystkowiakk/Argentinian-Tango-Lyrics-Sentiment-Topics-NLP/blob/main/lda_vis.html
 The Golden Age of Tango Music was 1935-1955, when many of the finest poets from Argentina and Uruguay wrote Tango lyrics. The form quickly became one of the richest in popular culture.  As the lyrics improved in quality, great singers also emerged and dominated the Tango scene, particularly with the advent of radio and sound film. However, towards the end of the 60s, Tango lost popularity to rock'n roll and pop music.
 
 In 2022, Tango as a dance is back! We can observe a rise of young orchestras in the last 15 years, many of whom are creating new songs to keep Tango music alive. Analysis of topics used by Golden Age poets can help modern orchestras imitate them and keep the spirit of particular orchestras or periods. Such exploration is also useful for tango specialists and enthusiasts.
