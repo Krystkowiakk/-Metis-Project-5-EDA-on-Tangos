@@ -8,8 +8,8 @@
 
 ABSTRACT
 
-- Processed 2,400 tango lyrics in Spanish using natural language processing (NLP) techniques, including CountVectorizer and Latent Semantic Analysis, to perform sentiment analysis and distinguish main topics. Tested different models (LSA, NMF, LDA) and used K means clustering to extract and visualise topical features in an interactive Tableau dashboard.
-- The goal of this project was to perform an analysis of topics used by various Golden Age tango poets, in order to help modern orchestras imitate them. The exploration is also useful for other tango proffesionals (music collectors, dj's, dance teachers) and private enthusiasts. The project used a dataset of lyrics from www.el-recodo.com, which was a powerful source of information about Argentinian Tango music for both professionals and hobbyists. After initial cleaning, the Spanish texts were pre-processed to distinguish the topics. The project tested and tuned multiple models, and ultimately decided to use Latent Semantic Analysis (LSA). Exploratory Data Analysis (EDA) was performed and an interactive dashboard was built using Tableau to visualize and communicate the results.
+- Processed 2,400 tango lyrics in Spanish using natural language processing (NLP) techniques, including CountVectorizer and Latent Semantic Analysis, to perform sentiment analysis and distinguish main topics. Tested different models (LSA, NMF, LDA) and used K Means clustering to extract and visualise topical features in an interactive Tableau dashboard.
+- The goal of this project was to perform an analysis of topics used by various Golden Age tango poets, in order to help modern orchestras imitate them. The exploration is also useful for other tango proffesionals (music collectors, dj's, dance teachers) and private enthusiasts. The project used a dataset of lyrics from www.el-recodo.com, which was a powerful source of information about Argentinian Tango music for both professionals and hobbyists. After initial cleaning, the Spanish texts were pre-processed to distinguish the topics. The project tested and tuned multiple models, and ultimately decided to use Latent Dirichlet Allocation (LDA). Exploratory Data Analysis was performed and an interactive dashboard was built using Tableau to visualize and communicate the results.
 
 DESIGN
 
@@ -29,21 +29,24 @@ ALGORITHMS
 
 - Filtering and cleaning data, removing capital letters and punctuation, extracting features.
 - nltk and spacy were used for removing stopwords and Spanish lemmatization.
-- Different models were tested for Dimensionality Reduction and Clustering.
+- Different models were tested for Dimensionality Reduction and Clustering (LSA, NMF, LDA)
 - K-Means clustering and silhouette coefficient suggested 3 topics as optimal.
 - PyPI module was used for Spanish sentiment analysis.
-- Final EDA was performed on the results of CountVectorizer on Latent Semantic Analysis. 3 topics were distinguished:
+- Final EDA was performed on the results of Latent Dirichlet Allocation (LDA). 3 topics were distinguished:
 
-DRAMATIC ROMANCE - love, heart, life, night, power, today, say, cry, pain
+Topic 1: LIFE CHOICES
+give, say, life, man, today, old, poor, power, always, time
 
-TANGO MUSIC&DANCE - tango, dance, bandoneon, old man, night, neighborhood, suburb, friend, emotion
+Topic 2: DRAMATIC LOVE
+love, heart, life, pain, power, soul, cry, return, eye, night  
 
-SWEET LOVE - love, tango, heart, song, voice, dream, bandoneon, dance, sweet
+Topic 3: BARRIO MUSIC
+tango, love, heart, night, singing, old, neighborhood, flower, song, beautiful
 
 TOOLS
 
 - Python Pandas, Numpy, and re for data processing.
-- Python packages for natural language processing (NLTK, spaCy, gensim, scikit-learn, PyPI, etc.)
+- Python packages for natural language processing (NLTK, spaCy, gensim, scikit-learn, PyPI, pyLDAvis etc.)
 - Plotly and WordCloud for data visualization.
 - Tableau and Keynote for creating interactive visualizations and presentations.
 
