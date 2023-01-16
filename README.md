@@ -5,7 +5,7 @@
 #### Code - NLP [GitHub](https://github.com/Krystkowiakk/Argentinian-Tango-Lyrics-Sentiment-Topics-NLP/blob/main/2.%20Krystkowiak_Krystian_Project_5_Argentinian%20Tango%20Lyrics%20Sentiment%20%26%20Topics%20NLP%20-%20NLP.ipynb)
 #### Presentation [GitHub](https://github.com/Krystkowiakk/Heart-Disease-Patients-Classification/blob/main/Project%20Presentation/Krystkowiak_Krystian_Project_4_Classification_on-Heart_Disease_Indicators.pdf)
 #### Dashboard [Tableau](https://public.tableau.com/views/tango/Dashboard1)
-#### <a id="raw-url" href="[https://raw.githubusercontent.com/github-username/project/master/filename](https://github.com/Krystkowiakk/Argentinian-Tango-Lyrics-Sentiment-Topics-NLP/blob/main/lda_vis.html)">Download FILE</a>
+#### Dashboard [Tableau](https://raw.githubusercontent.com/github-username/project/master/filename](https://github.com/Krystkowiakk/Argentinian-Tango-Lyrics-Sentiment-Topics-NLP/blob/main/lda_vis.html)
 
 ABSTRACT
 
